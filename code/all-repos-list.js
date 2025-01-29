@@ -21,6 +21,11 @@ const WATCHING_COMPONENT_TYPE = 'bbb-gp-gitviewer-pageAllRepos-panel';
 window.onbeforeunload = null;
 
 function load(data, dispatch, info) {
+
+  const testStr = 'testTring';
+  if (testStr) {
+    console.log('test')
+  }
   setTimeout(() => {
     const {areRepositoriesLoading} = info;
     if (areRepositoriesLoading) {
