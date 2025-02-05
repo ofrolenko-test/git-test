@@ -20,6 +20,9 @@ import './all-repos.scss';
 const WATCHING_COMPONENT_TYPE = 'bbb-gp-gitviewer-pageAllRepos-panel';
 window.onbeforeunload = null;
 
+
+// new test comment
+
 function load(data, dispatch, info) {
 
   const testStr = 'testTring';
