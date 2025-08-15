@@ -15,6 +15,7 @@ export default function PageContent(props) {
 				pt: '30px'
 			}}>
 				<main>
+					TEST changes in repos list // TODO check repositories list changes
 					<RepositoriesList />
 				</main>
 			</Box>

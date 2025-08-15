@@ -17,7 +17,7 @@ import MenuItem from "@mui/material/MenuItem";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Lozenge from "./Lozenge";
 
-export default function RepositoriesList(props) {
+const RepositoriesList = (props) => {
 	const columns = ['Enabled', 'Location', 'Repository/Integration', 'Last indexed', 'Status', 'Action'];
 	const rows = [
 		{id: 1, name: 'Repository1', location: 'GITHUB', lastIndexed: 'Newer', status: 'updated', enabled: true},
@@ -50,7 +50,7 @@ export default function RepositoriesList(props) {
 	)
 }
 
-function RepositoriesListRow (props) {
+const RepositoriesListRow  = (props) => {
 	const {row, menuItems, index} = props;
 	const [anchorEl, setAnchorEl] = React.useState(null);
 	const open = Boolean(anchorEl);
@@ -96,3 +96,5 @@ function RepositoriesListRow (props) {
 		</TableRow>
 	)
 }
+
+export default RepositoriesList
