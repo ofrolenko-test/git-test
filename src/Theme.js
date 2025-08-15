@@ -98,6 +98,7 @@ export const JiraTheme = createTheme({
 				root: {
 					padding: '0 10px',
 					fontSize: '14px',
+					fontWeigth: 900,
 					lineHeight: '28px'
 				}
 			}
