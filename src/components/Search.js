@@ -24,8 +24,8 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
 	position: 'absolute',
 	pointerEvents: 'none',
 	display: 'flex',
-	alignItems: 'center',
-	justifyContent: 'center',
+	alignItems: 'left',
+	justifyContent: 'left'
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
@@ -46,7 +46,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function SearchView(props) {
-	return <Search>
+	return (<Search>
 		<SearchIconWrapper>
 			<SearchIcon />
 		</SearchIconWrapper>
@@ -54,5 +54,5 @@ export default function SearchView(props) {
 			placeholder="Search…"
 			inputProps={{ 'aria-label': 'search' }}
 		/>
-	</Search>
+	</Search>)
 }

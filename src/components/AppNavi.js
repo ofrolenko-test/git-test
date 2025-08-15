@@ -10,7 +10,7 @@ const data = [
 
 export default function AppNavi(props) {
 	return (
-		<Box sx={{ width: '240px', borderRight: 1, borderColor: 'divider', fontSize: '10px' }}>
+		<Box sx={{ width: '240px', borderRight: 1, borderColor: 'divider', fontSize: '11px' }}>
 			{data.map((list, index) => (
 				<List key={index}>
 					{ list.group && <ListSubheader key={list.group} >{list.group.toUpperCase()}</ListSubheader> }

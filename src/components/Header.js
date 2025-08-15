@@ -77,7 +77,7 @@ export default function Header(props) {
 							{text: 'Search for issues', hasDivider: true},
 							{text: 'Archived issues', hasDivider: true},
 							{text: 'TST-1 TST-1', subheader: 'Recent issues', icon: <PendingIcon />, hasDivider: true},
-							{text: 'Import Ussues from SVG', hasDivider: true},
+							{text: 'Import Issues from SVG', hasDivider: true},
 							{text: 'My open issues', subheader: 'Filters'},
 							{text: 'Reported by me', hasDivider: true},
 							{text: 'Manage filters'}
